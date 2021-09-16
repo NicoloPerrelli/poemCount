@@ -74,7 +74,7 @@ public class App {
 		System.out.println("Start Count");
 
 		//move data from .txt file
-		Scanner sc = new Scanner(new File("\\C:\\Users\\Nicolo Perrelli\\Desktop\\poemWordCount\\src\\app\\poemText.txt"));
+		Scanner sc = new Scanner(new File("\\poemText.txt"));
 		List<String> lines = new ArrayList<String>();
 
 		while (sc.hasNext()) {
